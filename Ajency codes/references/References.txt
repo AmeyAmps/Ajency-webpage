@@ -1,0 +1,26 @@
+Aligninig the box in the center
+
+https://www.w3schools.com/css/css_align.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss_align_container
+https://css-tricks.com/centering-css-complete-guide/
+https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-css/
+
+
+Setting background image
+
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_multiple
+
+
+Html forms
+
+https://www.w3schools.com/html/html_forms.asp
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_radio
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit
+
+
+Some other references
+
+https://www.w3schools.com/cssref/css3_pr_transform.asp
+https://www.w3schools.com/css/css_positioning.asp
+https://www.w3schools.com/cssref/pr_pos_overflow.asp
