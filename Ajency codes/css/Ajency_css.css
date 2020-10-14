@@ -1,0 +1,99 @@
+body{
+	/*Setting the background color and image for our webpage*/
+	background-color: #000000;
+	background-image: url(../images/miles_morales.jpg);
+	background-repeat: no-repeat;/*This will mak esure that the image will not be repeated in the background*/
+	background-size: 100%;
+}
+
+header{
+	/*Styling the header tag*/
+	text-align: center;
+	font-size: 180%;
+	font-family: Times New Roman, sans-serif, Arial;
+	color: rgba(255,0,0,0.8);/*the color of the text will be red with an opacity of 0.8(slightly less opaque)*/
+}
+
+
+
+label{
+	color: rgba(255,255,255,1);
+}
+
+form{
+	text-align: center;
+	font-size: 120%;
+	
+}
+
+table , tr, td{
+	/*the contents of the table are centered*/
+	margin: 0 auto;
+	
+}
+
+.box{
+	/*Styling our box*/
+	margin:0 auto;/*centering the element*/
+	width: 80%;
+	height: 21%;
+	
+	transform: translate(-50%, -50%);/*this will translate the box by x and y units respectively (in our case, get the box exactly in the center of the screen)*/
+  position: absolute;/*the position of the box is set to absolute so that it is positioned close to the header*/
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  
+  
+	border: 3px solid #FF0000;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	background: -webkit-linear-gradient(to right, rgba(255,0,0,1), rgba(0,0,255,0.2));
+	background: -moz-linear-gradient(to right, rgba(255,0,0,1), rgba(0,0,255,0.2));
+	background: linear-gradient(to right, rgba(255,0,0,1), rgba(0,0,255,0.2));
+
+	/*This will provide a nice gradient finish to the box*/
+}
+ 
+
+#submit{
+
+	/*Styling the submit button*/
+	width: 25%;
+	background-color: rgba(255,255,255,0.5);
+	margin: 1%;
+	padding: 1%;
+	font-family: Times New Roman, sans-serif, Arial;
+	font-size: 120%;
+	
+	/*whenever the user will hover over the submit button 
+	the background color and font willl be changed in transtion*/
+	transition-property: color,background-color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+
+}
+
+#submit:hover{
+	/*whenever the user will hover over the submit button 
+	the background color and font willl be changed in transtion
+	to the below given colors*/
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(255,0,0,0.5);
+
+}
+
+
+@media screen and (min-width: 800px){
+	footer{
+	/*Styling of the footer*/
+	text-align: center;
+	font-size: 100%;
+	font-family: Times New Roman, sans-serif ,Arial;
+	color: rgba(255,255,255,0.78);
+	transform: translateY(2500%);/*the footer will be translated by 800%in the Y direction*/
+	overflow: auto;/*the content will be automatically adjusted if the contents are getting out of the page*/
+}
+
+
+}
